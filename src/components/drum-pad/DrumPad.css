@@ -1,0 +1,23 @@
+.drum-pad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  border-radius: 16px;
+}
+
+.drum-pad:hover {
+  background-color: hotpink;
+}
+
+.clicked {
+  transform: scale(1.1);
+  background-color: purple;
+}
+
+.clicked:hover {
+  background-color: purple;
+}
